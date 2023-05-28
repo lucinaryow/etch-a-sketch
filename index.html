@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a sketch</title>
+    <link rel="stylesheet" href="public/styles.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <h1>ETCH A SKETCH</h1>
+        <p></p>
+        <div class="grid-container">
+            <label for="grid-size">Enter grid size: </label>
+            <input type="text" name="grid-size" id="grid-size" max="100">
+            <button class="enter">Enter</button>
+        </div>
+        <div class="color-buttons-container">
+            <span>Choose a pen:</span>
+            <button class="black" value="black">Black</button>
+            <button class="random" value="random">Random</button>
+            <button class="rainbow" value="rainbow">Rainbow</button>
+            <button class="shade" value="shade">Shade</button>
+            <div class="color-buttons-container">
+                <span>Clear Board:</span>
+                <button class="clear">Clear</button>
+            </div>
+        </div>
+        <div class="board-container">
+        </div>
+
+    </div>
+    <script src="public/main.js"></script>
+</body>
+
+</html>
