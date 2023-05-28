@@ -18,6 +18,7 @@ document.querySelector('.clear').addEventListener('click', clear)
 //clears the board by creating a board from the last gridSize value
 function clear() {
     createBoard(gridSize);
+    penColor = 'white';
 }
 
 //assigns the value of random button to a random hex value and assigns penColor variable to the event target object value
